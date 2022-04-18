@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.35eadef4.css",
-    "main.js": "/react-gh-pages/static/js/main.b74cc5a4.js",
-    "static/js/787.43a72c83.chunk.js": "/react-gh-pages/static/js/787.43a72c83.chunk.js",
-    "index.html": "/react-gh-pages/index.html",
-    "main.35eadef4.css.map": "/react-gh-pages/static/css/main.35eadef4.css.map",
-    "main.b74cc5a4.js.map": "/react-gh-pages/static/js/main.b74cc5a4.js.map",
-    "787.43a72c83.chunk.js.map": "/react-gh-pages/static/js/787.43a72c83.chunk.js.map"
+    "main.css": "/tracker-dashboard-design/static/css/main.35eadef4.css",
+    "main.js": "/tracker-dashboard-design/static/js/main.76c87bdd.js",
+    "static/js/787.43a72c83.chunk.js": "/tracker-dashboard-design/static/js/787.43a72c83.chunk.js",
+    "index.html": "/tracker-dashboard-design/index.html",
+    "main.35eadef4.css.map": "/tracker-dashboard-design/static/css/main.35eadef4.css.map",
+    "main.76c87bdd.js.map": "/tracker-dashboard-design/static/js/main.76c87bdd.js.map",
+    "787.43a72c83.chunk.js.map": "/tracker-dashboard-design/static/js/787.43a72c83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35eadef4.css",
-    "static/js/main.b74cc5a4.js"
+    "static/js/main.76c87bdd.js"
   ]
 }
