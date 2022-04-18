@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/trackerdashboarddesign/static/css/main.35eadef4.css",
-    "main.js": "/trackerdashboarddesign/static/js/main.75cccd01.js",
-    "static/js/787.43a72c83.chunk.js": "/trackerdashboarddesign/static/js/787.43a72c83.chunk.js",
-    "index.html": "/trackerdashboarddesign/index.html",
-    "main.35eadef4.css.map": "/trackerdashboarddesign/static/css/main.35eadef4.css.map",
-    "main.75cccd01.js.map": "/trackerdashboarddesign/static/js/main.75cccd01.js.map",
-    "787.43a72c83.chunk.js.map": "/trackerdashboarddesign/static/js/787.43a72c83.chunk.js.map"
+    "main.css": "/static/css/main.35eadef4.css",
+    "main.js": "/static/js/main.dc8779ff.js",
+    "static/js/787.43a72c83.chunk.js": "/static/js/787.43a72c83.chunk.js",
+    "index.html": "/index.html",
+    "main.35eadef4.css.map": "/static/css/main.35eadef4.css.map",
+    "main.dc8779ff.js.map": "/static/js/main.dc8779ff.js.map",
+    "787.43a72c83.chunk.js.map": "/static/js/787.43a72c83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35eadef4.css",
-    "static/js/main.75cccd01.js"
+    "static/js/main.dc8779ff.js"
   ]
 }
