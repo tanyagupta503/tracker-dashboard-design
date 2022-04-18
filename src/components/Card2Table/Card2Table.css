@@ -1,0 +1,71 @@
+
+.table-container{
+    border: 1px solid #ECEEF8;
+    border-radius: 10px;
+    overflow: auto;
+}
+.table-striped{
+    color: #14161F;
+}
+.table-striped tr{
+    vertical-align: middle;
+}
+.table>:not(caption)>*>*{
+    padding: 0.25rem 0.5rem;
+    border: none;
+    box-shadow: none;
+}
+.table-striped>tbody>tr:nth-of-type(odd)>* {
+    background: #fff;
+    color: #14161F;
+}
+.table-striped>tbody>tr:nth-of-type(even)>* {
+    background: #F8F8FC;
+    color: #14161F;
+}
+.table-striped>tbody>tr.active>* {
+    background: #ACB3D5;
+}
+.table>:not(:first-child) {
+    border-top: 0;
+}
+.table-striped th{
+    background: #ECEEF8;
+    color: #1E1D29;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 0.5rem 0;
+    vertical-align: middle;
+}
+.table-striped .ms-3{
+    padding-left: 1rem;
+}
+.table-striped .checkbox-cell{
+    width: 20px;
+    padding-right: 0rem;
+}
+.table-striped .checkbox-cell.me-2{
+    padding-right: 0.5rem;
+}
+.table-striped th:not(:first-child) span{
+    border-left: 2px solid #ACB3D5;
+    padding: 0 0.75rem;
+    margin: 0.5rem 0;
+}
+.table-striped td{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.table-striped td b{
+    font-weight: 700;
+}
+.table-striped .btn-cell{
+    text-align: right;
+    text-align: -webkit-right;
+}
+.table-striped tr.active .btn{
+    background: #C9CFE8;
+}

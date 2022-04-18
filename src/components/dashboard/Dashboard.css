@@ -1,0 +1,156 @@
+
+.container{
+    padding: 2rem;
+    margin: 0;
+    width: 100%;
+    overflow: auto;
+    max-width: 100%;
+    font-family: 'Lato';
+}
+.dashboard-row{
+    min-height: 50%;
+}
+.card{
+    padding: 2rem;
+    /* Shadows/Medium */
+    box-shadow: 0px 10px 20px rgba(130, 138, 176, 0.4);
+    border-radius: 10px;
+    border: 0;
+}
+.card-body{
+    padding: 0;
+}
+.card-title {
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ECEEF8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-title h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 42px;
+    color: #1E1D29;
+    margin: 0;
+    display: inline;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-title h3 .badge{
+    background: #ECEEF8 !important;
+    border-radius: 40px;
+    padding: 0.375rem 0.75rem;
+    color: #14161F;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.btn-group{
+    flex-wrap: wrap;
+}
+.btn-group .btn{
+    flex: 0 1 auto;
+}
+.btn{
+    background: #ECEEF8;
+    border-radius: 6px !important;
+    min-height: 36px;
+    border: none;
+    color: #14161F;
+    padding: 0.375rem;
+    display: flex;
+    align-items: center;
+}
+.btn:hover, .btn:focus, .btn-group .btn:active {
+    color: #14161F;
+    background-color: #ECEEF8;
+    border: none;
+    box-shadow: none;
+}
+.btn span{
+    padding: 0 0.375rem;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.search-form{
+    position: relative;
+}
+.search-form input{
+    background: #F8F8FC;
+    border: 1px solid #ACB3D5;
+    border-radius: 6px;
+    color: #464C6D;
+    padding: 0.375rem 0.375rem 0.375rem 2.25rem;
+}
+.search-form img{
+    position: absolute;
+    top: 7px;
+    left: 7px;
+}
+.filter-box{
+    padding-bottom: 1rem;
+    margin-bottom: 0;
+    border-bottom: 2px solid #ECEEF8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.data-filter .filter-box{
+    justify-content: flex-start;
+}
+.filter-box.no-border{
+    border-bottom: 0;
+}
+.filter-form{
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+.filter-form label.filter-label{
+    display: flex;
+    height: 24px;
+    margin-bottom: 0.375rem;
+}
+.filter-form label.filter-label span{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 0.25rem;
+    color: #14161F;
+}
+.form-select{
+    border: 1px solid #C9CFE8;
+    border-radius: 6px;
+    color: #14161F;
+    padding: 0.375rem 0.75rem;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    min-width: 160px;
+    background: #F8F8FC url("../../images/chevron-down.png") no-repeat calc(100% - 12px) center;
+    padding-right: 3.25rem;
+}
+.filter-form label.select-label{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-left: 12px;
+    margin-bottom: 2px;
+    color: #464C6D;
+}
+.select-btn{
+    background: #ECEEF8 url("../../images/chevron-down.png") no-repeat calc(100% - 12px) center;
+    padding-right: 2.25rem;
+}

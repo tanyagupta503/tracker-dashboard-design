@@ -1,0 +1,89 @@
+/* Auto layout */
+#sidebarMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px;
+    width: 86px;
+    height: 100vh;
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    /* Grey/90 */
+    
+    background: #14161F;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+.navbar-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.brand-logo{
+    display: block;
+}
+.nav-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    overflow: auto;
+    height: calc(100% - 168px); /* 42+42+16+28+40 */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+
+    width: 42px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 40px 0px 0px 0px;
+}
+.nav-list::-webkit-scrollbar {
+    display: none;
+}
+.bottom-nav{
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+.nav-item{
+    display: flex;
+    padding: 11px;
+    /* Auto layout */
+    width: 42px;
+    height: 42px;
+
+    /* Grey/80 */
+
+    background: #282C40;
+    border-radius: 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px 0px 8px 0px;
+}
+.bottom-nav .nav-item{
+    margin: 8px 0 0 0;
+}
+.nav-item.active{
+    background: #00953B
+}

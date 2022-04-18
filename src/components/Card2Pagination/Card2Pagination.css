@@ -1,0 +1,16 @@
+.pagination-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page-size-select{
+    min-width: 0;
+    padding-right: 2.25rem;
+}
+.page-number-input{
+    width: 36px;
+    background: #F8F8FC;
+    border: 1px solid #ACB3D5;
+    border-radius: 6px;
+}

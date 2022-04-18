@@ -1,0 +1,38 @@
+.info-div h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1E1D29;
+    margin-bottom: 1rem;
+}
+.info-div > div{
+    border-bottom: 2px solid #ECEEF8;
+    margin: 1rem 0;
+}
+.info-div > div:last-child{
+    border-bottom: 2px solid transparent;
+    margin: 1rem 0 2.25rem 0;
+}
+.btn.btn-danger{
+    background: #FEE0E0;
+    color: #AD1A1A;
+}
+.btn.btn-warning{
+    background: #FAF1D6;
+    color: #BB8E06;
+}
+.info-value{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #14161F;
+}
+.info-label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E1D29;
+}

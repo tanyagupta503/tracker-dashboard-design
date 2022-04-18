@@ -1,0 +1,49 @@
+.data-filter .col-sm-3:not(:last-child){
+    border-right: 1px solid #ECEEF8;
+    padding-right: 2rem;
+}
+.data-filter .col-sm-3:not(:first-child){
+    padding-left: 2rem;
+}
+.data-filter .select-group{
+    flex-grow: 1;
+}
+.data-rows .form-check-label{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+}
+.data-rows .form-check-input{
+    border: 1.5px solid #C9CFE8;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.data-rows .form-check-input:checked, .data-rows .form-check-input[type=checkbox]:indeterminate{
+    background-color: #00953B;
+    border: 1.15385px solid #00953B;
+    border-radius: 4px;
+}
+.data-info{
+    display: flex;
+    justify-content: space-between;
+}
+.data-info .form-check-label{
+    font-weight: 400;
+}
+.data-info span{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.data-progress{
+    border-radius: 4px;
+    height: 0.5rem;
+    background: #ECEEF8;
+    overflow: hidden;
+}
+.data-progress .filler{
+    height: 100%;
+    border-radius: 4px 0px 0px 4px;
+}
